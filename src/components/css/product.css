@@ -1,0 +1,17 @@
+.devices{
+    width: 96%;
+}
+
+ul {
+    color: rgb(251 175 25);
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.list_txt{
+    padding-left: 20px;
+}
+
+.oval{
+    width: 100%;
+}

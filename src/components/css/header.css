@@ -1,0 +1,26 @@
+.header{
+    font-size: 3em;
+    color: #fbaf19e6;;
+    padding-top: 10vh;
+ 
+}
+.text_Home{
+    color: white
+}
+.image{
+    padding-left: 9vw;
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 30vh;
+  
+}
+.tm-flex { 
+    display: -ms-flexbox; 
+    column-gap: 40px;
+    display: flex;
+  }
+  .pathImg{
+    height: 50vw;
+    margin-bottom: 5vh;
+}
+
