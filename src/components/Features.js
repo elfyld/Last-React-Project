@@ -19,35 +19,35 @@ const Features = () => {
         <div className="even-columns">
           <div className="Img_container">
             <img id="feat" className="images" src={locationImg} />
-            <p className="feat_txt">
+            <p className="text">
               Optimization of the Vehicle Rouiting domain{" "}
             </p>
           </div>
           <div className="Img_container">
             <img   id="feat" className="images" src={gearImg} />
-            <p className="feat_txt">Up to 30.000 tasks within minutes </p>
+            <p className="text">Up to 30.000 tasks within minutes </p>
           </div>
           <div className="Img_container">
             <img   id="feat" className="images" src={locationImg} />
-            <p className="feat_txt">Live Driver Tracking </p>
+            <p className="text">Live Driver Tracking </p>
           </div>
         </div>
         <div className="even-columns">
           <div className="Img_container">
             <img   id="feat" className="images" src={featuresTruck} />
-            <p className="feat_txt">
+            <p className="text">
               Handling Capacities, time windiows,priorties{" "}
             </p>
           </div>
           <div className="Img_container">
             <img   id="feat"className="images" src={hand} />
-            <p className="feat_txt">
+            <p className="text">
               Pickup and Delivery Problems (e.gride sharing){" "}
             </p>
           </div>
           <div className="Img_container">
             <img  id="feat" className="images" src={arrows} />
-            <p className="feat_txt">Instant Adress Changes </p>
+            <p className="text">Instant Adress Changes </p>
           </div>
         </div>
         <div style={{paddingBottom : 100}}>

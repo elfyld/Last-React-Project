@@ -18,13 +18,20 @@
 .even-columns{
   display: grid;
   grid-auto-flow: column;
+  column-gap: 10vw;
   grid-auto-columns: 1fr;
   max-width: 100%;
-  margin: 20px auto;
+  margin: 30px auto;
 }
 .header_txt{
   text-align: center;
 }
 .box{
   padding-top:9vh ;
+}
+.text{
+  text-align: center;
+    padding-top: 3vh;
+    font-size: 1.5vw;
+    font-weight: 550;
 }
