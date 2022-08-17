@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Product from "./components/Product";
 import Contact from "./components/Contact";
+import Images from "./components/Images";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
@@ -19,6 +20,7 @@ const App = () => {
     <div>
       <Navbar />
       <Header />
+      <Images/>
       <Features />
       <Product/>
       <Contact/>
