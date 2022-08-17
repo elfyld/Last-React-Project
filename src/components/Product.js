@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/product.css";
-import oval from "/home/elifyld/react-proj_3/src/components/images/Oval Copy 3.png";
 import devices from "/home/elifyld/react-proj_3/src/components/images/Group 2.png";
 const Product = () => {
   return (
@@ -19,55 +18,35 @@ const Product = () => {
             <img className="devices" src={devices} fluid />
           </div>
           <div className="col-md-4">
-            <div className="box">
-              <ul>
+            <ul>
+              <li>
                 <div class="d-flex">
-                  <div>
-                    <img className="oval" src={oval} />
-                  </div>
                   <span className="list_txt">
                     {" "}
                     Operator, Driver and Customer Interfaces{" "}
                   </span>
                 </div>
-              </ul>
-              <ul>
+              </li>
+              <li>
                 <div class="d-flex">
-                  <div>
-                    <img className="oval" src={oval} />
-                  </div>
                   <span className="list_txt">
                     {" "}
-                    Realtime tracking of hte delivery cars
+                    Realtime tracking of the delivery cars
                   </span>
                 </div>
-              </ul>
-              <ul>
+              </li>
+              <li>
                 <div class="d-flex ">
-                  <div>
-                    <img className="oval" src={oval} />
-                  </div>
                   <span className="list_txt">
                     {" "}
                     Developed for IOS and Android{" "}
                   </span>
                 </div>
-              </ul>
-              <ul>
-                <div class="d-flex ">
-                  <div>
-                    <img className="oval" src={oval} />
-                  </div>
-                  <span className="list_txt">
-                    {" "}
-                    Developdszdadzdssd{" "}
-                  </span>
-                </div>
-              </ul>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
-       <div style={{ paddingBottom: 70 }}></div>
+        <div style={{ paddingBottom: 70 }}></div>
       </div>
     </div>
   );

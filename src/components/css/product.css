@@ -5,13 +5,20 @@
 ul {
     color: rgb(251 175 25);
     padding-top: 10px;
-    font-weight: bold;
+    
+    padding-top: 5rem;
+    list-style-image: url(/home/elifyld/react-proj_3/src/components/images/Oval.png)
+
+}
+
+li {
+    margin-bottom: 1rem;
 }
 
 .list_txt{
+    font-weight: 800;
     padding-left: 20px;
+    position: relative;
+    bottom: 2vh;
 }
 
-.oval{
-    width: 100%;
-}
