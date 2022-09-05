@@ -1,0 +1,61 @@
+
+  .button {
+      font-weight: bold;
+      background: #db9c1d;
+      border: none;
+      height: 40px;
+      width: 45%;
+      border-radius: 21px;
+      cursor: pointer;
+      text-decoration: none;
+    
+  }
+
+  .inputs{
+    border-radius: 40px;
+    border: transparent;
+    color: white;
+    height: 55px;
+    width: 100%;
+    background-color  : #121821;
+    margin-bottom: 4vh;
+}   
+
+#description {
+  height: 86px; 
+  
+}
+
+
+#contact {
+  margin-bottom: 4vh;
+}
+
+.logo_C{
+  width: 10rem;
+ 
+}
+::placeholder {
+  color:#db9c1d ;
+  font-weight:bold;
+  
+}
+input[type=text],input[type=text_1]
+{
+padding-left: 10px;
+padding-bottom :15px ;
+}
+input[type=text_1]
+{
+padding-left: 10px;
+padding-bottom :40px ;
+
+}
+
+@media screen and  (max-width: 767.98px){
+.logo_C{
+  height: 9%;
+
+}
+
+}

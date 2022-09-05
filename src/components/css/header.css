@@ -1,12 +1,13 @@
 
 .text_Home{
-    color: white
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
 }
 .image{
-    padding-left: 9vw;
     width: 100%;
     padding-top: 5vh;
-    padding-bottom: 30vh;
+    padding-bottom: 2vh;
   
 }
 .tm-flex { 
@@ -18,3 +19,64 @@
     height: 50vw;
     margin-bottom: 5vh;
 }
+.video-container{
+        position: relative;
+      
+}
+
+#header{
+    margin: bottom 1vh; ;
+}
+
+.video{
+    position: absolute;
+    top: 10vh;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+
+   }
+  
+
+  /*/Phone/*/ 
+  
+    /*/tablet/*/
+
+    @media screen and (max-width: 991.98px){ 
+    
+        .video{
+            height: 60%;
+            width: 80%;
+            left: 4vh;
+            top: 7vh;}
+ }
+ 
+ @media screen and  (max-width: 767.98px) { 
+    .image {
+        padding-left: 9vw;
+        width: 85%;
+        padding-top: 5vh;
+        padding-bottom: 2vh;
+    }
+    .video{
+        left: 20%;
+        width: 55%;
+        top: 6vh;
+        height: 60%;
+    }
+    .spacing{
+ 
+        margin-bottom: 10vh; 
+      }
+      
+      .text_Home {
+        margin-left: 1rem;
+
+    }
+    .header {
+        font-size: 2em;
+        margin-left: 1rem;
+        padding-top: 4vh;
+    
+    }
+    }

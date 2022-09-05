@@ -1,9 +1,10 @@
 import React from "react";
+import oval from "/home/elifyld/react-proj_3/src/components/images/Oval.png";
 import "./css/product.css";
 import devices from "/home/elifyld/react-proj_3/src/components/images/Group 2.png";
 const Product = () => {
   return (
-    <div style={{ backgroundColor: "#121821" }}>
+    <div id="Product" style={{ backgroundColor: "#121821" }}>
       <div class="container">
         <div className="box">
           <h2 style={{ color: "#fbaf19e6" }} className="header_txt">
@@ -21,6 +22,9 @@ const Product = () => {
             <ul>
               <li>
                 <div class="d-flex">
+                  <div>
+                    <img className="oval" src={oval} />
+                  </div>
                   <span className="list_txt">
                     {" "}
                     Operator, Driver and Customer Interfaces{" "}
@@ -29,6 +33,9 @@ const Product = () => {
               </li>
               <li>
                 <div class="d-flex">
+                  <div>
+                    <img className="oval" src={oval} />
+                  </div>
                   <span className="list_txt">
                     {" "}
                     Realtime tracking of the delivery cars
@@ -37,6 +44,9 @@ const Product = () => {
               </li>
               <li>
                 <div class="d-flex ">
+                  <div>
+                    <img className="oval" src={oval} />
+                  </div>
                   <span className="list_txt">
                     {" "}
                     Developed for IOS and Android{" "}

@@ -8,7 +8,7 @@ import gearImg from "/home/elifyld/react-proj_3/src/components/images/optimizati
 
 const Features = () => {
   return (
-    <div style={{ backgroundColor: "white" }}>
+    <div id="Features" style={{ backgroundColor: "white" }}>
       <div className="container justify-content-center">
         <div className="box">
           <h2 className="header_txt">Features</h2>
@@ -50,7 +50,7 @@ const Features = () => {
             <p className="text">Instant Adress Changes </p>
           </div>
         </div>
-        <div style={{paddingBottom : 100}}>
+        <div className="spacing">
         </div>
       </div>
     </div>

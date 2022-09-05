@@ -1,5 +1,5 @@
 .images{
-  width : 59%;
+  width : 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top : 4vh ;
@@ -35,3 +35,27 @@
     font-size: 1.5vw;
     font-weight: 550;
 }
+.spacing{
+ 
+  margin-bottom: 10vh; 
+}
+
+.navbar a:hover {
+  border-radius: 50px;
+  background: #fbaf19e6;;
+}
+.scroll-margin-top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  display: block;
+  z-index: 2;
+  font-size: 14px;
+  color: #333;
+}
+#Why {
+  scroll-margin-top: -10rem;
+}
+

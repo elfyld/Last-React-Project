@@ -5,17 +5,29 @@ import "./css/lineImg.css";
 
 const Header = () => {
   return (
-    <div style={{ backgroundColor: "#1c2430" }}>
+    <div id="Home" style={{ backgroundColor: "#1c2430" }}>
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h1 className="header">Powerfull Logistics Platform!</h1>
+            <h1 style={{ fontWeight: "bolder" }} className="header">
+              Powerful Logistics Platform!
+            </h1>
             <p className="text_Home">
               QLogisticks is the next generation logistics platfrom.{" "}
             </p>
           </div>
           <div className="col-md-8 ">
-            <img className="image" src={myImage} alt="Computer" fluid />
+            <div className="video-container">
+              <iframe
+                className="video"
+                controls
+                autoplay
+                fluid
+                src="https://www.youtube.com/embed/9mdQPy26hGM"
+              ></iframe>
+              <img className="image" src={myImage} alt="Computer" fluid />
+            </div>
+            <div id="header"className="spacing"></div>
           </div>
         </div>
       </div>

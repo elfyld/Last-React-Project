@@ -8,11 +8,11 @@ import featuresImg from "/home/elifyld/react-proj_3/src/components/images/Practi
 
 const images = () => {
   return (
-    <div style={{ backgroundColor: "#1c2430" }}>
+    <div id="Why" style={{ backgroundColor: "#1c2430" }}>
       <img className="pathImg" src={pathImg}/>
       <div className="container">
         <div className="d-flex justify-content-center">
-          <h2 style={{ color: "#fbaf19e6" }}>Why</h2>
+          <h2 id="h2" style={{ color: "#fbaf19e6" }}>Why</h2>
           <img className="logo" src={Logo} />
         </div>
         <div className="even-columns">

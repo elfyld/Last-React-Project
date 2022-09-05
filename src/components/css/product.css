@@ -5,10 +5,9 @@
 ul {
     color: rgb(251 175 25);
     padding-top: 10px;
-    
+    list-style: none;
     padding-top: 5rem;
-    list-style-image: url(/home/elifyld/react-proj_3/src/components/images/Oval.png)
-
+  
 }
 
 li {
@@ -19,6 +18,27 @@ li {
     font-weight: 800;
     padding-left: 20px;
     position: relative;
-    bottom: 2vh;
+    font-size: 1rem;
+  
 }
 
+.oval {
+    width :2em
+}
+
+
+
+@media screen and (max-width: 991.98px){
+    ul {
+        padding-top: 2rem;
+    }
+    .oval{
+        width: 1.5em;
+    }
+
+}
+@media screen and  (max-width: 767.98px){
+    .oval{
+        width: 1em;
+    }
+}
